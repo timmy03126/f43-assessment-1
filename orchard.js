@@ -180,14 +180,19 @@ console.log(pinkTons)
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+let fujiPounds = 0
+let galaPounds = 0
+let pinkPounds = 0
 
+for(i = 0; i < fujiAcres.length; i++) {
+    fujiPounds += fujiTons[i] * 2000
+    galaPounds += galaTons[i] * 2000
+    pinkPounds += pinkTons[i] * 2000
+}
 
-
-
-
+console.log(fujiPounds)
+console.log(galaPounds)
+console.log(pinkPounds)
 
 // PROBLEM 6
 
@@ -204,16 +209,24 @@ console.log(pinkTons)
     Log each of the profits to the 
     console. 
 */
+//const fujiPrice = .89 
+//const galaPrice = .64
+//const pinkPrice = .55
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+let fujiProfit = 0
+let galaProfit = 0
+let pinkProfit = 0
 
-
-
-
+for(i = 0; i < fujiAcres.length; i++) {
+    fujiProfit += fujiPounds * .89
+    galaProfit += galaPounds * .64
+    pinkProfit += pinkPounds * .55
+}
+console.log(fujiProfit)
+console.log(galaProfit)
+console.log(pinkProfit)
 
 
 // PROBLEM 7
@@ -227,3 +240,5 @@ console.log(pinkTons)
 */
 
 // CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+console.log(totalProfit)
