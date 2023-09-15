@@ -115,6 +115,7 @@ let days = 0
 
 while (acresLeft > 0) {
     acresLeft = (acresLeft - averageDailyAcres)
+    //every time the loop runs it will add 1 on to the days variable so when the loop is done, it will output how many days it will take to pick the acres left.
     days = days + 1
 }
 console.log(days)
@@ -143,7 +144,7 @@ console.log(days)
 */
 
 // CODE HERE
-
+//setting all the arrays as empty so I can loop the copies to get the desired output
 let fujiTons = []
  let galaTons = []
 let pinkTons = []
@@ -179,7 +180,7 @@ console.log(pinkTons)
 */
 
 // CODE HERE 
-
+//setting all the variables to 0 so I can add values to them later
 let fujiPounds = 0
 let galaPounds = 0
 let pinkPounds = 0
@@ -209,12 +210,10 @@ console.log(pinkPounds)
     Log each of the profits to the 
     console. 
 */
-//const fujiPrice = .89 
-//const galaPrice = .64
-//const pinkPrice = .55
+
 
 // CODE HERE
-
+//setting all the variables to 0 so I can add values to them later
 let fujiProfit = 0
 let galaProfit = 0
 let pinkProfit = 0
