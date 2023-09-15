@@ -21,6 +21,7 @@ let lovesCode = true
 */
 
 //CODE HERE
+
 if (faveNum === 13) {
   console.log(`lucky 13!`)
 } else {
